@@ -6,6 +6,7 @@ import android.content.Intent
 import android.content.IntentFilter
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import com.example.broadcastreceiver.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
