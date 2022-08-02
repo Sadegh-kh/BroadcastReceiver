@@ -23,7 +23,6 @@ class MainActivity : AppCompatActivity() {
                 checkInternetConnection()
             }
         }
-
         val intentFilter=IntentFilter("android.net.conn.CONNECTIVITY_CHANGE")
         registerReceiver(broadcastReceiver,intentFilter)
 
